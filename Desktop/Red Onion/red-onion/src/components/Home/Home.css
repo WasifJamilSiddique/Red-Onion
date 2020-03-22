@@ -1,0 +1,52 @@
+
+.logo{
+    height: 50px;
+    width: 200px;
+}
+
+.sign-up{
+    background-color: crimson;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.top-banner{
+    background: url('../../fakeData/bannerbackground.png');
+    width: 1300px;
+    height: 500px;
+}
+
+.food button:hover{
+    color: crimson;
+    border-bottom: 4px solid crimson;
+}
+
+.showImages{
+    display: flex;
+    overflow: hidden;
+}
+
+.adjust-img{
+    width: 30%;
+}
+
+.showFood{
+   margin-left: 50px;
+   cursor: pointer;
+}
+
+.place-order-btn{
+    background-color: darkgray;
+}
+.d-flex button:hover{
+    border-bottom: none;
+}
+
+.none{
+    text-decoration: none;
+    color: black;
+}
+.none:hover{
+    text-decoration: none;
+    color: lightskyblue;
+}

@@ -1,0 +1,26 @@
+
+.adjust-img{
+    width: 90%;
+    height: 90%;
+}
+
+#hidden{
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+.marginStyle{
+    margin-top: 80px;
+}
+
+.right{
+    margin-right: 10px;
+}
+
+.btn-crimson{
+    color: white;
+    background-color: crimson;
+    border: 1px solid crimson;
+    padding: 8px;
+    border-radius: 15px 50px 30px 5px;
+}
