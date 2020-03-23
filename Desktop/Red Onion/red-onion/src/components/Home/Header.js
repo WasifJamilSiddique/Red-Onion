@@ -9,8 +9,8 @@ const Header = () => {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <a className="navbar-brand" href="#">
-                    <img className="logo" src={logo} alt=""/>
+                <a className="navbar-brand" href="/">
+                    <img className="logo" src={logo} alt="" />
                 </a>
                 <div className="ml-auto" id="navbarNav">
                     <ul className="navbar-nav">
@@ -20,10 +20,10 @@ const Header = () => {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a class="nav-link" href="#">Login</a>
+                            <a class="nav-link" href="/Login">Login</a>
                         </li>
                         <li className="nav-item">
-                            <a className="text-white nav-link sign-up" href="#">Sign Up</a>
+                            <a className="text-white nav-link sign-up" href="/signUp">Sign Up</a>
                         </li>
                     </ul>
                 </div>

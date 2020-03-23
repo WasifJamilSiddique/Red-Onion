@@ -1,0 +1,31 @@
+
+.margin{
+    margin-top: 100px;
+}
+
+#container img{
+    height: 400px;
+}
+
+.box{
+    margin-left: 150px;
+    width: 300px;
+    height: 400px;
+    background: lightgrey;
+}
+
+.logo{
+    height: 50px;
+}
+
+.white-box{
+    width: 240px;
+    height: 130px;
+    background: white;
+    margin-left: 20px;
+    border-radius: 5px 5px 6px 5px;
+}
+
+.white-box li{
+    color: crimson;
+}

@@ -1,10 +1,11 @@
 
-import React, { useState } from 'react';
+import React, { useState, createContext } from 'react';
 import './ShowFoodDetail.css'
 import fakeData from '../../fakeData/fakeData';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
+
 
 const ShowFoodDetail = () => {
     const formatNumber = num => {

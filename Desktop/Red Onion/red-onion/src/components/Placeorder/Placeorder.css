@@ -1,0 +1,27 @@
+#container input{
+    width: 350px;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+#container button{
+    width: 250px;
+}
+
+#container a{
+    text-decoration: none;
+    color: lightsalmon;
+}
+
+#container a:hover{
+    text-decoration: none;
+    color: lightsalmon;
+}
+
+.margin{
+    margin-top: 100px;
+}
+
+div{
+    overflow: hidden;
+}
